@@ -4,29 +4,31 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="Yet another blog" />
+    <link rel="stylesheet" href="styles.css">
+
     <title>Artyom's blog</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img src="https://plus.unsplash.com/premium_photo-1685086785054-d047cdc0e525?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Nice img" width="150" height="150">
-        <nav>
-            <ul>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+            alt="Nice img" class="header__image" width="150" height="150">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="about.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="contacts.html" class="nav__link">Contacts</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1><em>Blog</em></h1>
-        <article>
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo dignissimos veritatis eos architecto
-                explicabo nulla, dolor veniam pariatur totam alias iure placeat quos inventore ipsam expedita porro
-                aliquid odit!</p>
-            <pre>
+    <main class="main">
+        <h1 class="main__title"><em>Blog</em></h1>
+        <article class="article">
+            <h2 class="article__title">Title</h2>
+            <p class="article__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo dignissimos
+                veritatis eos architecto explicabo nulla, dolor veniam pariatur totam alias iure placeat quos inventore
+                ipsam expedita porro aliquid odit!</p>
+            <pre class="article__code">
     +------+  
     |      |  
     |  :)  |  
@@ -34,12 +36,12 @@
     +------+
             </pre>
         </article>
-        <article>
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab magni voluptatibus facilis minima nam nemo
-                iure veniam incidunt ratione odit, sint voluptatem odio sed nesciunt, deleniti, perspiciatis aliquid
-                amet quod.</p>
-            <pre>
+        <article class="article">
+            <h2 class="article__title">Title</h2>
+            <p class="article__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab magni voluptatibus
+                facilis minima nam nemo iure veniam incidunt ratione odit, sint voluptatem odio sed nesciunt, deleniti,
+                perspiciatis aliquid amet quod.</p>
+            <pre class="article__code">
     #include &lt;iostream&gt;
 
     int main() {
@@ -48,18 +50,18 @@
     }
             </pre>
         </article>
-        <article>
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere magni ipsa laborum officia
-                sequi aperiam ipsum aspernatur rem quam, alias veniam deserunt ratione omnis illo minima voluptas?
-                Explicabo, eos..</p>
+        <article class="article">
+            <h2 class="article__title">Title</h2>
+            <p class="article__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere magni
+                ipsa laborum officia sequi aperiam ipsum aspernatur rem quam, alias veniam deserunt ratione omnis illo
+                minima voluptas? Explicabo, eos..</p>
         </article>
     </main>
 
-    <footer>
-        <blockquote>
+    <footer class="footer">
+        <blockquote class="footer__blockquote">
             <p>"It's only after we've lost everything that we're free to do anything."</p>
-            <footer>— <cite>Fight Club</cite></footer>
+            <footer class="footer__cite">— <cite>Fight Club</cite></footer>
         </blockquote>
     </footer>
 </body>
