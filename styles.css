@@ -28,6 +28,14 @@ body {
     border-radius: 50%;
 }
 
+.home {
+    display: flex;
+}
+
+.home__item {
+    padding-left: 15px;
+}
+
 .nav__list {
     list-style: none;
     padding: 0;
@@ -45,6 +53,11 @@ body {
     font-weight: bold;
     transition: color 0.3s;
     line-height: 1.0;
+}
+
+.nav__link--active {
+    font-weight: bold;
+    color: #000;
 }
 
 .nav__link:hover {
@@ -173,7 +186,3 @@ body {
     .main {
         flex-direction: column;
     }
-
-    .comments {
-        flex: 1 1 100%;
-        margin-top:
