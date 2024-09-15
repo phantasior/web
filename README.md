@@ -1,3 +1,3 @@
 # Web
 
-![Alt](![Alt text](prototype.png)
+![Alt](./prototype.png)
