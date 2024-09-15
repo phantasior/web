@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Image Gallery with Swiper Slider" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/slider.js"></script>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="nav__link">
+                <div class="home nav__item">
+                    <img src="https://plus.unsplash.com/premium_photo-1685086785054-d047cdc0e525?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                         alt="Nice img" class="header__image" width="50" height="50">
+                    <p class="home__item nav__link" href="index.html">Home</p>
+                </div>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Contacts</a></li>
+                    <li class="nav__item"><a href="create.html" class="nav__link">Suggest</a></li>
+                    <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery (Anapa 2014)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__content">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <blockquote class="footer__blockquote">
+            <p>"I did not say all that shit."</p>
+            <footer class="footer__cite">— Jason Statham</footer>
+        </blockquote>
+    </footer>
+
+    <script src="scripts/slider.js"></script>
+</body>
+
+</html>
