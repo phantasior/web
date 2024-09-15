@@ -216,3 +216,14 @@ body {
 .form__button:hover {
     background-color: #0056b3;
 }
+
+
+.preloader {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
